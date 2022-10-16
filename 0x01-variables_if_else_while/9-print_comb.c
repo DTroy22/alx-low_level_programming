@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints all combination of single digits
+ * main - Entry point
+ *
  * Return: Always 0
  */
 int main(void)
@@ -11,7 +12,7 @@ int main(void)
 	for (n = 0; n < 100; n++)
 	{
 		putchar(n + '0');
-		if (n < 99)
+		if (n < 9)
 		{
 			putchar(',');
 			putchar(' ');
