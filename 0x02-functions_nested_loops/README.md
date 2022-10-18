@@ -1,1 +1,1 @@
-This readme for the C function, nested loopd
+This readme for the C function, nested loop
