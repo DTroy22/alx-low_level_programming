@@ -2,17 +2,20 @@
 
 /**
  * print_last_digit - prints the last digit
- * @n: the number
+ * @n: jfjfjf
  * Return: value of the last digit
  */
 int print_last_digit(int n)
 {
-	int ldig = n % 10;
+	int a;
 
-	if (ldig < 0)
-		ldig *= -1;
+	if (n < 0)
+		n = -n;
+	a = n % 10;
 
-	_putchar(ldig + '0');
+	if (a < 0)
+		a = -a;
+	_putchar(a + '0');
 
 	return (0);
 }
